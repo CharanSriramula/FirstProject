@@ -2,5 +2,11 @@
 using namespace std;
 
 int main(){
-    cout<<"Hello Word"<<endl;
+    int t;
+    cin >> t;
+    while( t-- ){
+        int n;
+        cin >> n;
+        cout<< n << endl;
+    }
 }
